@@ -604,7 +604,8 @@ var quizQuestions = [
   },
   // question #31
   {
-    question: 'I put my personal opinions aside in pursuit of fairness and justice.',
+    // question: 'I put my personal opinions aside in pursuit of fairness and justice.',
+    question: '公平さを保つために、個人的な意見を脇に置いて考えられるタイプだ',
     answers: [
       {
         // briggs, color, letter
