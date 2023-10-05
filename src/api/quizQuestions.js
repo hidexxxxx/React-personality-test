@@ -23,7 +23,7 @@ var quizQuestions = [
   },
   // question #2
   {
-    question: 'I get bored easily when disscussing abstract concepts.',
+    question: '抽象的な議論するとすぐに飽きてしまう',
     answers: [
       {
         // briggs, color, letter
@@ -42,20 +42,20 @@ var quizQuestions = [
   },
   // question #3
   {
-    question: 'I like to try things out myself.',
+    question: '家を出る前に、先にどこに行くのか知りたい',
     answers: [
       {
         // briggs, color, letter
         type: 'S,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: '当てはまる'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'どちらともいえない'
       },
       {
         type: 'S,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "当てはまらない"
       }
     ]
   },
