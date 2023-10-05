@@ -4,7 +4,7 @@
 var quizQuestions = [
   // question #1
   {
-    question: '特定の目標を達成するためにタスク志向で取り組んでしまう方だ。',
+    question: '特定の目標を達成するためにタスク志向で取り組んでしまう方だ',
     answers: [
       {
         // briggs, color, letter
@@ -28,15 +28,15 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'N,Green,C',
-        content: 'YEP! THAT IS ME!'
+        content: '当てはまる'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'どちらともいえない'
       },
       {
         type: 'N,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "当てはまらない"
       }
     ]
   },
