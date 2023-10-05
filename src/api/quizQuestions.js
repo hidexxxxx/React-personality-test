@@ -4,20 +4,20 @@
 var quizQuestions = [
   // question #1
   {
-    question: 'I am task oriented in order to achieve certain goals.',
+    question: '特定の目標を達成するためにタスク志向で取り組んでしまう方だ。',
     answers: [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: '当てはまる'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'どちらともいえない'
       },
       {
         type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "当てはまらない"
       }
     ]
   },
