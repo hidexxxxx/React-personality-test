@@ -5,7 +5,7 @@ var quizQuestions = [
   // question #1
   {
     // question: 'I am task oriented in order to achieve certain goals.'
-    question: '特定の目標を達成するためにタスク志向で取り組んでしまう方だ',
+    question: '特定の目標を達成するために、タスク志向で取り組んでしまう方だ',
     answers: [
       {
         // briggs, color, letter
@@ -624,7 +624,8 @@ var quizQuestions = [
   },
   // question #32
   {
-    question: 'I tend to sit at the back or corner of the room.',
+    // question: 'I tend to sit at the back or corner of the room.',
+    question: '会議室や学校の教室で自由に席を選べる時、後ろの方や角の方に座ることが多い',
     answers: [
       {
         // briggs, color, letter
@@ -643,7 +644,8 @@ var quizQuestions = [
   },
   // question #33
   {
-    question: 'I like being the centre of attention.',
+    // question: 'I like being the centre of attention.',
+    question: '注目を浴びることが好きな方だ',
     answers: [
       {
         // briggs, color, letter
@@ -662,7 +664,8 @@ var quizQuestions = [
   },
   // question #34
   {
-    question: 'I solve problems by leaping between different ideas and possibilities.',
+    // question: 'I solve problems by leaping between different ideas and possibilities.',
+    question: '他のアイデアの可能性も並行して考えながら問題を解決することが好きだ',
     answers: [
       {
         // briggs, color, letter
@@ -681,7 +684,8 @@ var quizQuestions = [
   },
   // question #35
   {
-    question: 'I like to complete my work before playing.',
+    // question: 'I like to complete my work before playing.',
+    question: '仕事を途中で切り上げるのではなく、きっちり終わらせてから自分の時間に移るようにしている',
     answers: [
       {
         // briggs, color, letter
@@ -700,7 +704,8 @@ var quizQuestions = [
   },
   // question #36
   {
-    question: "I don't let other people influence my thoughts or actions.",
+    // question: "I don't let other people influence my thoughts or actions.",
+    question: '他の人の影響が、自分の考えや行動にあまり影響を与えることはない',
     answers: [
       {
         // briggs, color, letter
@@ -719,7 +724,8 @@ var quizQuestions = [
   },
   // question #37
   {
-    question: 'I use my sense of smell to help remember memories.',
+    // question: 'I use my sense of smell to help remember memories.',
+    question: '匂いがきっかけで何かを思い出すことがよくある',
     answers: [
       {
         // briggs, color, letter
@@ -738,7 +744,8 @@ var quizQuestions = [
   },
   // question #38
   {
-    question: 'I make decisions based on my emotions.',
+    // question: 'I make decisions based on my emotions.',
+    question: '感情に基づいた決断を下すことがよくある',
     answers: [
       {
         // briggs, color, letter
@@ -757,7 +764,8 @@ var quizQuestions = [
   },
   // question #39
   {
-    question: 'I need time alone to recharge.',
+    // question: 'I need time alone to recharge.',
+    question: '心のエネルギーを補給するために1人の時間が必要だ',
     answers: [
       {
         // briggs, color, letter
@@ -776,7 +784,8 @@ var quizQuestions = [
   },
   // question #40
   {
-    question: 'I like to keep my room organized and clean.',
+    // question: 'I like to keep my room organized and clean.',
+    question: '自分の部屋を綺麗に整えて掃除することが好きな方だ',
     answers: [
       {
         // briggs, color, letter
