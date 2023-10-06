@@ -85,7 +85,7 @@ var quizQuestions = [
   // question #5
   {
     // question: 'I believe there is a logical explanation for everything.'
-    question: '世の中のすべての物事は、ロジカルな説明で証明することができると思う',
+    question: '世の中のすべての物事は、論理的に説明がつくと思う',
     answers: [
       {
         // briggs, color, letter
@@ -145,7 +145,7 @@ var quizQuestions = [
   // question #8
   {
     // question: 'I enjoy using social media.',
-    question: 'SNSを使うことが好きです',
+    question: 'SNSを使うことが好きだ',
     answers: [
       {
         // briggs, color, letter
@@ -165,7 +165,7 @@ var quizQuestions = [
   // question #9
   {
     // question: 'I always express concern for others when making decisions.',
-    question: '決断を下す時、常に周りの顔色を気にしてしまう',
+    question: '決断を下す時、常に周りの顔色を気にしてしまう方だ',
     answers: [
       {
         // briggs, color, letter
@@ -205,7 +205,7 @@ var quizQuestions = [
   // question #11
   {
     // question: 'I can easily adjust to a change in decision.',
-    question: '決定が変わった後、すぐに適応することができる',
+    question: '決定や決断が変わった後、すぐに適応することができる',
     answers: [
       {
         // briggs, color, letter
@@ -225,7 +225,7 @@ var quizQuestions = [
   // question #12
   {
     // question: 'I solve problems by working through facts until I understand the problem.',
-    question: '問題を理解するためには、事実をしっかり踏まえて取り組むことが大切だと思う',
+    question: '問題を理解して解決するためには、事実をしっかり踏まえることが大切だと思う',
     answers: [
       {
         // briggs, color, letter
@@ -265,7 +265,7 @@ var quizQuestions = [
   // question #14
   {
     // question: 'I make decisions with my heart.',
-    question: '何か決断を下す時、心の声を重要視する派だ',
+    question: '何か決断を下す時、心の声を重視する派だ',
     answers: [
       {
         // briggs, color, letter
@@ -285,7 +285,7 @@ var quizQuestions = [
   // question #15
   {
     // question: 'I learn best by seeing step by step instructions.',
-    question: '何かを学習する際、一歩一歩順を追って学びたい派だ',
+    question: '何かを学習する時、一歩一歩順を追って学びたい派だ',
     answers: [
       {
         // briggs, color, letter
@@ -305,7 +305,7 @@ var quizQuestions = [
   // question #16
   {
     // question: 'I sometimes move onto another task before completing my current one.',
-    question: '現在取り掛かっているタスクが全て完了する前に、別のタスクに取りかかってしまう',
+    question: '現在取り掛かっているタスクが全て完了する前に、別のタスクに取りかかってしまうことがある',
     answers: [
       {
         // briggs, color, letter
@@ -325,7 +325,7 @@ var quizQuestions = [
   // question #17
   {
     // question: 'I prefer a flexible and spontaneous way of life.',
-    question: '人生において自発性と柔軟性が大切だと思う派だ',
+    question: '人生において、自発性と柔軟性が大切だと思う',
     answers: [
       {
         // briggs, color, letter
@@ -425,7 +425,7 @@ var quizQuestions = [
   // question #22
   {
     // question: 'I know my priorities.',
-    question: '自分の中で優先すべきことが分かっている',
+    question: '自分の中で優先すべきことがいつも分かっている',
     answers: [
       {
         // briggs, color, letter
@@ -705,7 +705,7 @@ var quizQuestions = [
   // question #36
   {
     // question: "I don't let other people influence my thoughts or actions.",
-    question: '他の人の影響が、自分の考えや行動にあまり影響を与えることはない',
+    question: '他の人の影響が、自分の考えや行動に影響を与えることはあまりない',
     answers: [
       {
         // briggs, color, letter
