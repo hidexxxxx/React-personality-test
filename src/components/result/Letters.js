@@ -22,7 +22,7 @@ class Letters extends Component {
   renderNextBtn() {
     return (
       <NextBtn onClick={this.props._onNextClick}>
-        <span>次へ</span>
+        <span>Next</span>
         <div className="icon">
           <i className="fa fa-chevron-right" />
         </div>
@@ -112,32 +112,32 @@ class Letters extends Component {
     }
     return (
       <Wrapper>
-        <h1 className="display-3 title">アルファベットタイプの結果</h1>
+        <h1 className="display-3 title">Letters Result</h1>
         <hr className="my-4" />
         <h2 className="display-6 resultTxt">{this.props.resultLetters}</h2>
         <hr className="my-5" />
-        <p className="lead">結果の詳細</p>
+        <p className="lead">What does this result mean?</p>
         <ul className="list-group">
           <li className="list-group-item" onClick={this.onLetterA_Click}>
-            Aタイプの結果はこちら
+            Letter A
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterB_Click}>
-            Bタイプの結果はこちら
+            Letter B
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterC_Click}>
-            Cタイプの結果はこちら
+            Letter C
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onLetterD_Click}>
-            Dタイプの結果はこちら
+            Letter D
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
