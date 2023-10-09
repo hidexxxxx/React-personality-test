@@ -46,11 +46,11 @@ const Intro = ({ title, _onStartClick }) => {
         <h1>{title}</h1>
         {/* TODO: WILL CHANGE THIS THING DOWN HERE */}
         <ul className="list-group">
-          <li className="list-group-item">Consits of 40 questions</li>
-          <li className="list-group-item">Answer honestly</li>
+          <li className="list-group-item">40問の質問でタイプ診断！</li>
+          <li className="list-group-item">あまり考えずに直感で選んでみてください。</li>
         </ul>
         <StartBtn onClick={_onStartClick}>
-          <span>Let's Do This!</span>
+          <span>スタート！</span>
           <div className="icon">
             <i className="fa fa-arrow-right" />
           </div>

@@ -470,11 +470,11 @@ class Briggs extends Component {
     }
     return (
       <Wrapper>
-        <h1 className="display-3 title">Briggs Result</h1>
+        <h1 className="display-3 title">16タイプ性格診断</h1>
         <hr className="my-4" />
         <h2 className="display-6 resultTxt">{this.props.resultBriggs}</h2>
         <hr className="my-5" />
-        <p className="lead">What does this result mean?</p>
+        <p className="lead">診断結果の詳細は以下へ</p>
         <ul className="list-group briggs">
           <li className="list-group-item" onClick={this.onISTJ_click}>
             ISTJ
@@ -531,6 +531,13 @@ class Briggs extends Component {
             ENTJ
           </li>
         </ul>
+        <p className="lead">性格診断は以上です！</p>
+        {/* <ExitBtn onClick={_onExitClick}>
+          <span>おわり</span>
+          <div className="icon">
+            <i className="fa fa-arrow-right" />
+          </div>
+        </ExitBtn> */}
       </Wrapper>
     )
   }

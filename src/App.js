@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   renderIntro() {
-    return <Intro _onStartClick={this._onStartClick} title="Welcome To Personality Test" />
+    return <Intro _onStartClick={this._onStartClick} title="16タイプ性格診断へようこそ。" />
   }
 
   renderQuestion() {
@@ -39,7 +39,7 @@ class App extends Component {
         anime({
           targets: '.card',
           translateX: '150%',
-          elasticity: function(el, i, l) {
+          elasticity: function (el, i, l) {
             return 200 + i * 200
           }
         }),
