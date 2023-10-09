@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   renderIntro() {
-    return <Intro _onStartClick={this._onStartClick} title="〜　性格診断　〜" />
+    return <Intro _onStartClick={this._onStartClick} title="16タイプ性格診断へようこそ。" />
   }
 
   renderQuestion() {

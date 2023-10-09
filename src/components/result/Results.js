@@ -7,9 +7,9 @@ class Results extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      showColorsResult: true,
+      showColorsResult: false,
       showLettersResult: false,
-      showBriggsResult: false
+      showBriggsResult: true
     }
     this._onNextClick = this._onNextClick.bind(this)
   }

@@ -22,7 +22,7 @@ class Colors extends Component {
   renderNextBtn() {
     return (
       <NextBtn onClick={this.props._onNextClick}>
-        <span>次へ</span>
+        <span>Next</span>
         <div className="icon">
           <i className="fa fa-chevron-right" />
         </div>
@@ -122,32 +122,32 @@ class Colors extends Component {
     }
     return (
       <Wrapper className="jumbotron">
-        <h1 className="display-3 title">色診断の結果</h1>
+        <h1 className="display-3 title">Colors Result</h1>
         <hr className="my-4" />
         <h2 className="display-6 resultTxt">{this.props.resultColors}</h2>
         <hr className="my-5" />
-        <p className="lead">結果の詳細</p>
+        <p className="lead">What does this result mean?</p>
         <ul className="list-group">
           <li className="list-group-item" onClick={this.onBrownDefClick}>
-            Brown の結果はこちら
+            Brown
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onGreenDefClick}>
-            Green の結果はこちら
+            Green
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onBlueDefClick}>
-            Blue の結果はこちら
+            Blue
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
           </li>
           <li className="list-group-item" onClick={this.onRedDefClick}>
-            Red の結果はこちら
+            Red
             <div className="icon">
               <i className="fa fa-arrow-right" />
             </div>
